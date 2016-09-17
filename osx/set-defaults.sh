@@ -160,7 +160,7 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 defaults write com.apple.dock showhidden -bool true
 
 ############################################################################
-# Safari                                               #
+# Safari                                                                   #
 ############################################################################
 
 # Set up Safari for development:
