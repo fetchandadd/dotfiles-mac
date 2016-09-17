@@ -1,0 +1,4 @@
+# Removing the Startup Message:
+startup_message off
+# Knowing Where You Are In Screen:
+caption always "%{= Wk}%-w%{= Bw}%n %t%{-}%+w %-="

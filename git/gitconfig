@@ -1,0 +1,13 @@
+[user]
+	name = Tim Tegeler
+	email = tim@tegeler.me
+[github]
+	user = timtegeler
+[core]
+	editor = vi
+	excludesfile = ~/.gitignore_global
+[color]
+	ui = true
+[push]
+	default = simple
+	followTags = true
