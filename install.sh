@@ -28,7 +28,7 @@ if [ ! -f /usr/local/bin/brew ]
 
     # Changing shell to fish:
     sudo echo $(which fish) >> /etc/shells
-    sudo chsh -s $(which fish)
+    chsh -s $(which fish)
     curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
     omf install agnoster
     # Installing powerline fonts:
