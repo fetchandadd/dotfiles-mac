@@ -42,6 +42,15 @@ function iterm(){
 
 
 case "$1" in
+	all)
+          apply_ssh
+          tmux
+          tmuxinator
+	  fish
+          git
+          osx
+          iterm
+	  ;;
         ssh)
           apply_ssh
           ;;
@@ -52,7 +61,7 @@ case "$1" in
           tmuxinator
           ;;
         fish)
-          fish
+	  fish
           ;;
         git)
           git
@@ -64,6 +73,6 @@ case "$1" in
           iterm
           ;;
         *)
-            echo $"Usage: $0 {start|stop|restart|condrestart|status}"
+            echo $"Usage: $0 {all|ssh|tmux|tmuxinator|fish|git|osx|iterm}"
             exit 1
 esac
