@@ -8,5 +8,5 @@ curl -sSL https://raw.githubusercontent.com/timtegeler/dotfiles/master/bootstrap
 ## Installing
 ```sh
 cd dotfiles
-sudo bash install.sh
+bash install.sh
 ```
