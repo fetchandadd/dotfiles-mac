@@ -28,4 +28,4 @@ fi
 
 # Clone dotfiles:
 printf "Cloning dotfiles.\n"
-git clone git@github.com:timtegeler/dotfiles.git
+git clone https://github.com/timtegeler/dotfiles.git
