@@ -17,6 +17,15 @@ if [ ! -f /usr/local/bin/brew ]
     sudo gem install bundler
     bundle install
 
+    # Npm packages:
+    if [ ! -f /usr/local/bin/npm ]
+      then
+        printf "Npm ist not installed!\n"
+      else
+        printf "Installing global npm packages.\n"
+        bash npm-global-packages.sh
+    fi
+
     # Changing shell to fish:
     sudo echo $(which fish) >> /etc/shells
     chsh -s $(which fish)
