@@ -14,6 +14,7 @@ brew 'httpie'
 cask 'java'
 brew 'node'
 brew 'npm'
+brew 'python3'
 
 # Essentials with GUI:
 cask 'appcleaner'
