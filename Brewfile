@@ -34,3 +34,4 @@ cask 'owncloud'
 # IDE:
 cask 'phpstorm'
 cask 'webstorm'
+cask 'pycharm'
