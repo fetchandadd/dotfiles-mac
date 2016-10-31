@@ -8,6 +8,7 @@ set -gx OMF_PATH "/Users/tim/.local/share/omf"
 source $OMF_PATH/init.fish
 
 set -g fish_key_bindings fish_vi_key_bindings
+set -g prompt_vi_mode_left yes
 
 # NOTE: There is probably a sexier nicer way to do this, but until I figure that out I am manually unsetting here.
 # Unsets PATH
