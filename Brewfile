@@ -17,7 +17,7 @@ brew 'npm'
 
 # Essentials with GUI:
 cask 'appcleaner'
-brew 'docker'
+cask 'docker'
 cask 'vlc'
 cask 'atom'
 cask 'iterm2'
