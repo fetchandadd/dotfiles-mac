@@ -16,6 +16,9 @@ brew 'node'
 brew 'npm'
 brew 'python3'
 
+# Database support
+brew 'postgresql'
+
 # Essentials with GUI:
 cask 'appcleaner'
 cask 'docker'
