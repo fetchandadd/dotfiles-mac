@@ -9,6 +9,9 @@ Icon
 Swap files
 *.swp
 
+Log files
+npm-debug.log
+
 # Thumbnails
 ._*
 
