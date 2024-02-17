@@ -2,7 +2,7 @@
 	name = Tim Tegeler
 	email = tim@tegeler.me
 [github]
-	user = timtegeler
+	user = fetchandadd
 [core]
 	editor = vi
 	excludesfile = ~/.gitignore_global
