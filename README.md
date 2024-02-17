@@ -1,3 +1,5 @@
+![Logo](https://raw.githubusercontent.com/fetchandadd/dotfiles-mac/master/logo-64.png)
+
 # Dotfiles
 
 ## Bootstrapping
