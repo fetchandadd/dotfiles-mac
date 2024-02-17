@@ -19,8 +19,8 @@ function tmuxinator(){
 
 function fish(){
   echo "Applying config for fish..."
-  mkdir -p ~/.config/fish/functions
-  cp ./fish/functions/*.fish ~/.config/fish/functions/
+#  mkdir -p ~/.config/fish/functions
+#  cp ./fish/functions/*.fish ~/.config/fish/functions/
   cp ./fish/config.fish ~/.config/fish/config.fish
 }
 
