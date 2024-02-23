@@ -1,11 +1,12 @@
 [user]
 	name = Tim Tegeler
 	email = tim@tegeler.me
+	signingkey = 7E78911B5EA70EA5
 [github]
 	user = fetchandadd
 [core]
 	editor = vi
-	excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore
 [color]
 	ui = true
 [push]

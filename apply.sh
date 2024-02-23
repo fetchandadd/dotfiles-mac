@@ -26,7 +26,7 @@ function fish(){
 
 function git(){
   echo "Applying config for git..."
-  cp ./git/gitignore_global ~/.gitignore_global
+  cp ./git/gitignore ~/.gitignore
   cp ./git/gitconfig ~/.gitconfig
 }
 
