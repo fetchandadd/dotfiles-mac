@@ -22,6 +22,7 @@ npm-debug.log
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.localized
 
 # Directories potentially created on remote AFP share
 .AppleDB
