@@ -2,6 +2,8 @@
 	name = Tim Tegeler
 	email = tim@tegeler.me
 	signingkey = 7E78911B5EA70EA5
+[commit]
+	gpgsign = true
 [github]
 	user = fetchandadd
 [core]
