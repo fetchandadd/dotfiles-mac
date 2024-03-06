@@ -33,3 +33,6 @@ Temporary Items
 
 venv
 __pycache__
+
+# Office temp files
+~$*.doc*
